@@ -13,5 +13,9 @@ void input(){
         if (nPanjang <= 10){
             break;
         }
+        else
+        {
+            cout << "\n[!] Jumlah elemen tidak boleh dari 10. Silakan coba lagi.\n";
+        }
     }
 }
