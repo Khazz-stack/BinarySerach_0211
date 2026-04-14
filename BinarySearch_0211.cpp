@@ -21,14 +21,20 @@ void input()
             cout << "\n[!] Jumlah elemen tidak boleh dari 10. Silakan coba lagi.\n";
         }
     }
+
+    cout << "\n==============================\n";
+    cout << "      Masukkan Elemen Array    \n";
+    cout << "==============================\n";
+
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << "Data ke-" << i + 1 << ": ";
+        cin >> element[i];
+    }
 }
 
-cout << "\n==============================\n";
-cout << "      Masukkan Elemen Array    \n";
-cout << "==============================\n";
-
-for (int i = 0; i < nPanjang; i++)
+void bubbleSortArray()
 {
-    cout << "Data ke-" << (i + 1) << " = ";
-    cin >> element[i];
+    
 }
+
